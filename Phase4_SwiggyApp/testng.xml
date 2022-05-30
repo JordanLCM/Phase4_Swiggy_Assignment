@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="swiggyApp.assignment.Test_LoopScrollingUp"/>
-      <class name="swiggyApp.assignment.SwiggyApp_Assignment_Project001"/>
+<!--       <class name="swiggyApp.assignment.Test_LoopScrollingUp"/>
+ -->      <class name="swiggyApp.assignment.SwiggyApp_Assignment_Project001"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

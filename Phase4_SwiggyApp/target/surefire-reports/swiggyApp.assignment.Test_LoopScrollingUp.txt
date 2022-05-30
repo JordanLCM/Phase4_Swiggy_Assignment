@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: swiggyApp.assignment.Test_LoopScrollingUp
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 23.916 s <<< FAILURE! - in swiggyApp.assignment.Test_LoopScrollingUp
+test(swiggyApp.assignment.Test_LoopScrollingUp)  Time elapsed: 3.669 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Connection refused: no further information
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CDWILT004', ip: '172.31.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+	at swiggyApp.assignment.Test_LoopScrollingUp.ScrollUp(Test_LoopScrollingUp.java:87)
+	at swiggyApp.assignment.Test_LoopScrollingUp.test(Test_LoopScrollingUp.java:61)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at swiggyApp.assignment.Test_LoopScrollingUp.ScrollUp(Test_LoopScrollingUp.java:87)
+	at swiggyApp.assignment.Test_LoopScrollingUp.test(Test_LoopScrollingUp.java:61)
+

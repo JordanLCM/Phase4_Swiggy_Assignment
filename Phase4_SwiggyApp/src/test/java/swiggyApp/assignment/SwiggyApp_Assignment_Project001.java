@@ -1,7 +1,6 @@
 package swiggyApp.assignment;
 
 import java.net.URL;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.After;
@@ -67,14 +66,17 @@ public class SwiggyApp_Assignment_Project001 {
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
+		System.out.println("TearDown @AfterClass!");
 	}
 
 	@Before
 	public void setUp() throws Exception {
+		System.out.println("Setup @Before!");
 	}
 
 	@After
 	public void tearDown() throws Exception {
+		System.out.println("TearDown @After!");
 	}
 
 	@Test

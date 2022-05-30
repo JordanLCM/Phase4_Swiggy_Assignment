@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: swiggyApp.assignment.SwiggyApp_Assignment_Project001
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 72.938 s <<< FAILURE! - in swiggyApp.assignment.SwiggyApp_Assignment_Project001
+CfindChooseBurger(swiggyApp.assignment.SwiggyApp_Assignment_Project001)  Time elapsed: 20.907 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CDWILT004', ip: '172.31.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activities.HomeActivity, appPackage: in.swiggy.android, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: .activities.HomeActivity, appPackage: in.swiggy.android, automationName: uiautomator2, newCommandTimeout: 300, noReset: true, platformName: android, platformVersion: 9, skipDeviceInitialization: true, udid: DQSCRWA6JZY9UWNV}, deviceApiLevel: 28, deviceManufacturer: vivo, deviceModel: V1913A, deviceName: DQSCRWA6JZY9UWNV, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: DQSCRWA6JZY9UWNV, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, skipDeviceInitialization: true, statBarHeight: 84, takesScreenshot: true, udid: DQSCRWA6JZY9UWNV, viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: edd6c677-8313-4cc8-8c25-eeeffe89a0fd
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Veg Crunchy Volcano']}
+	at swiggyApp.assignment.SwiggyApp_Assignment_Project001.CfindChooseBurger(SwiggyApp_Assignment_Project001.java:133)
+
+DfindCheckoutAmount(swiggyApp.assignment.SwiggyApp_Assignment_Project001)  Time elapsed: 15.139 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CDWILT004', ip: '172.31.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activities.HomeActivity, appPackage: in.swiggy.android, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: .activities.HomeActivity, appPackage: in.swiggy.android, automationName: uiautomator2, newCommandTimeout: 300, noReset: true, platformName: android, platformVersion: 9, skipDeviceInitialization: true, udid: DQSCRWA6JZY9UWNV}, deviceApiLevel: 28, deviceManufacturer: vivo, deviceModel: V1913A, deviceName: DQSCRWA6JZY9UWNV, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: DQSCRWA6JZY9UWNV, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, skipDeviceInitialization: true, statBarHeight: 84, takesScreenshot: true, udid: DQSCRWA6JZY9UWNV, viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: edd6c677-8313-4cc8-8c25-eeeffe89a0fd
+*** Element info: {Using=id, value=in.swiggy.android:id/tv_checkout}
+	at swiggyApp.assignment.SwiggyApp_Assignment_Project001.DfindCheckoutAmount(SwiggyApp_Assignment_Project001.java:152)
+
